@@ -6,22 +6,22 @@ import { getFirestore } from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  // apiKey: "AIzaSyCRshskHJYw-sIsRksApSVARARFJhYhcbo",
-  // authDomain: "farmako-profile-website-b6d3a.firebaseapp.com",
-  // projectId: "farmako-profile-website-b6d3a",
-  // storageBucket: "farmako-profile-website-b6d3a.appspot.com",
-  // messagingSenderId: "737235531971",
-  // appId: "1:737235531971:web:79f96ed36c066e32de4a76"
+  // apiKey: "",
+  // authDomain: "",
+  // projectId: "",
+  // storageBucket: "",
+  // messagingSenderId: "",
+  // appId: ""
 };
 
 const firebaseConfig2 = {
-  // apiKey: "AIzaSyCnao9WGUgHKh9qtsVIdBVW_Vh8eZyldNk",
-  // authDomain: "farmako-master.firebaseapp.com",
-  // projectId: "farmako-master",
-  // storageBucket: "farmako-master.appspot.com",
-  // messagingSenderId: "992029051570",
-  // appId: "1:992029051570:web:01af7ba43e04ac65a497ab",
-  // measurementId: "G-643GXSZWWR"
+  // apiKey: "",
+  // authDomain: "",
+  // projectId: "",
+  // storageBucket: "",
+  // messagingSenderId: "",
+  // appId: "",
+  // measurementId: ""
 };
 
 // Initialize Firebase
