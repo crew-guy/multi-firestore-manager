@@ -9,13 +9,12 @@ import { getFirestore } from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCnao9WGUgHKh9qtsVIdBVW_Vh8eZyldNk",
-  authDomain: "farmako-master.firebaseapp.com",
-  projectId: "farmako-master",
-  storageBucket: "farmako-master.appspot.com",
-  messagingSenderId: "992029051570",
-  appId: "1:992029051570:web:01af7ba43e04ac65a497ab",
-  measurementId: "G-643GXSZWWR"
+  // apiKey: "",
+  // authDomain: "",
+  // projectId: "",
+  // storageBucket: "",
+  // messagingSenderId: "",
+  // appId: ""
 };
 
 const firebaseConfig2 = {
@@ -30,6 +29,6 @@ const firebaseConfig2 = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
-// const app2 = initializeApp(firebaseConfig2,"secondary")
+const app2 = initializeApp(firebaseConfig2,"secondary")
 export const db = getFirestore(app);
-// export const db2 = getFirestore(app2);
+export const db2 = getFirestore(app2);
