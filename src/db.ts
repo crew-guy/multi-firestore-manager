@@ -1,5 +1,8 @@
 // Import the functions you need from the SDKs you need
-import {initializeApp} from 'firebase/app';
+// Link to docs -> https://firebase.google.com/docs/firestore/manage-data/add-data#web-version-9
+// Link to have 2 firebase apps initialised from same server - https://firebase.google.com/docs/projects/multiprojects#web
+
+import { initializeApp } from 'firebase/app';
 import { getFirestore } from "firebase/firestore"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
